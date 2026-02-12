@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Haseeb · full‑stack engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <canvas id="code-rain" class="background-effect"></canvas>
+    <div id="cursor-glow"></div>
+    <nav class="navbar" id="navbar">
+        <div class="logo">Haseeb.dev</div>
+        <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+        <div class="nav-links" id="navLinks">
+            <a href="#home" class="nav-item active-nav">HOME</a>
+            <a href="#about" class="nav-item">ABOUT</a>
+            <a href="#skills" class="nav-item">SKILLS</a>
+            <a href="#projects" class="nav-item">PROJECTS</a>
+            <a href="#contact" class="nav-item">CONTACT</a>
+        </div>
+    </nav>
+
+   
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-badge"><i class="fas fa-terminal" style="margin-right: 6px;"></i> full‑stack software engineer</span>
+                <h1>
+                    Muhammad <span class="hero-highlight">Haseeb</span>
+                </h1>
+                <p class="hero-desc">
+                    Motivated software engineer skilled in web development, DSA, and security best practices. 
+                    I craft user‑friendly, accessible interfaces with optimized performance.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary"><i class="fas fa-arrow-down" style="margin-right: 8px;"></i> view work</a>
+                    <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane" style="margin-right: 8px;"></i> contact</a>
+                </div>
+                
+                <div style="margin-top: 2rem; display: flex; gap: 1.8rem; flex-wrap: wrap;">
+                    <span style="display: flex; align-items: center;"><i class="fas fa-phone-alt" style="color: #2563eb; margin-right: 8px;"></i> +92 322 4191171</span>
+                    <span style="display: flex; align-items: center;"><i class="fas fa-envelope" style="color: #2563eb; margin-right: 8px;"></i> arshadhaseeb901@gmail.com</span>
+                </div>
+            </div>
+        
+            <div class="hero-avatar">
+                <img src="do.png" alt="Muhammad Haseeb profile photo">
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="about">
+        <div class="container">
+            <span class="section-tag"><i class="fas fa-user"></i> about me</span>
+            <h2>Education journey</h2>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <h3>Bachelor's Degree in Software Engineering</h3>
+                    <span class="edu-meta">2023 – 2027</span>
+                    <p style="color: #475569; font-weight: 500;">Punjab University College of Information and Technology, Lahore</p>
+                    <p style="margin-top: 0.8rem; color: #556b86;">Currently pursuing, passionate about efficient, scalable solutions and latest full‑stack technologies.</p>
+                </div>
+                <div class="edu-card">
+                    <h3>Intermediate in Pre-Engineering</h3>
+                    <span class="edu-meta">2021 – 2023</span>
+                    <p style="color: #475569; font-weight: 500;">Punjab Group Of Colleges, Lahore</p>
+                </div>
+                <div class="edu-card">
+                    <h3>Matriculation Degree</h3>
+                    <span class="edu-meta">2019 – 2021</span>
+                    <p style="color: #475569; font-weight: 500;">Dar-e-Arqam School, Lahore</p>
+                </div>
+            </div>
+           
+            <div style="margin-top: 2.5rem; background: rgba(255,255,255,0.4); padding: 2rem; border-radius: 40px; backdrop-filter: blur(8px);">
+                <p style="font-size: 1.1rem; color: #2d3c51;">Motivated software engineer skilled in web development, data structures, and algorithms. Developed user-friendly websites with accessible interfaces while collaborating effectively on team projects. Focused on security best practices and optimization during system management internships. Dedicated to continuous learning for achieving goals efficiently with hands-on problem-solving experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <span class="section-tag"><i class="fas fa-code"></i> technical skills</span>
+            <h2>engineering toolset</h2>
+            
+            <div class="skills-category">
+                <h3 style="display: flex; align-items: center; gap: 10px; margin-bottom: 1rem;"><i class="fas fa-laptop-code" style="color: #2563eb;"></i> Frontend & Backend</h3>
+                <div class="skill-items">
+                    <span class="skill-badge"><i class="fab fa-html5"></i> HTML</span>
+                    <span class="skill-badge"><i class="fab fa-css3-alt"></i> CSS</span>
+                    <span class="skill-badge"><i class="fab fa-js"></i> JavaScript</span>
+                    <span class="skill-badge"><i class="fab fa-react"></i> React</span>
+                    <span class="skill-badge"><i class="fab fa-node"></i> Node.js</span>
+                    <span class="skill-badge"><i class="fab fa-node-js"></i> Express</span>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 style="display: flex; align-items: center; gap: 10px; margin-bottom: 1rem;"><i class="fas fa-database"></i> Databases</h3>
+                <div class="skill-items">
+                    <span class="skill-badge"><i class="fas fa-database"></i> MySQL</span>
+                    <span class="skill-badge"><i class="fas fa-database"></i> Oracle Database</span>
+                    <span class="skill-badge"><i class="fas fa-database"></i> SQL Database</span>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 style="display: flex; align-items: center; gap: 10px; margin-bottom: 1rem;"><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                <div class="skill-items">
+                    <span class="skill-badge"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+                    <span class="skill-badge"><i class="fab fa-docker"></i> Docker</span>
+                    <span class="skill-badge"><i class="fab fa-figma"></i> Figma</span>
+                    <span class="skill-badge"><i class="fas fa-paint-brush"></i> Adobe Illustrator</span>
+                    <span class="skill-badge"><i class="fas fa-paper-plane"></i> Postman</span>
+                    <span class="skill-badge"><i class="fab fa-python"></i> Python (NumPy, Pandas)</span>
+                    <span class="skill-badge"><i class="fas fa-brain"></i> TensorFlow & Scikit-learn</span>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 style="display: flex; align-items: center; gap: 10px; margin-bottom: 1rem;"><i class="fas fa-terminal"></i> Programming Languages</h3>
+                <div class="skill-items">
+                    <span class="skill-badge">C/C++</span>
+                    <span class="skill-badge">C#</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">Python</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <span class="section-tag"><i class="fas fa-rocket"></i> portfolio</span>
+            <h2>My projects</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <div class="project-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>Food Delivery Website</h3>
+                    <span class="project-date">December 2025</span>
+                    <p class="project-desc" style="color: #475569;">Built a full-stack food delivery management system with user authentication, cart functionality, order processing, and real-time order management.</p>
+                    <span style="display: inline-block; background: #e6f0ff; padding: 0.2rem 1rem; border-radius: 40px; font-size: 0.75rem; font-weight: 700; color: #2563eb;">.NET C#</span>
+                </div>
+                <div class="project-item">
+                    <div class="project-icon"><i class="fas fa-person-walking"></i></div>
+                    <h3>Human Activity Recognition</h3>
+                    <span class="project-date">December 2025</span>
+                    <p class="project-desc" style="color: #475569;">Designed a machine learning system to recognize human activities (sitting, standing, running). Applied data preprocessing, feature engineering, and supervised learning.</p>
+                    <span style="display: inline-block; background: #e6f0ff; padding: 0.2rem 1rem; border-radius: 40px; font-size: 0.75rem; font-weight: 700; color: #2563eb;">HAR · ML</span>
+                </div>
+                <div class="project-item">
+                    <div class="project-icon"><i class="fas fa-car"></i></div>
+                    <h3>Car Rental System</h3>
+                    <span class="project-date">September 2024</span>
+                    <p class="project-desc" style="color: #475569;">Console-based car rental system using C++, implementing OOP concepts to manage vehicle availability, bookings, and customer records efficiently.</p>
+                    <span style="display: inline-block; background: #e6f0ff; padding: 0.2rem 1rem; border-radius: 40px; font-size: 0.75rem; font-weight: 700; color: #2563eb;">C++ · OOP</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding-top: 0;">
+        <div class="container">
+            <span class="section-tag"><i class="fas fa-certificate"></i> credentials</span>
+            <h2>Certifications</h2>
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <i class="fas fa-robot"></i>
+                    <h3 style="font-size: 1.4rem; margin-bottom: 0.3rem;">Supervised Machine Learning</h3>
+                    <p style="font-weight: 600; color: #2563eb;">Coursera – DeepLearning.AI</p>
+                    <p style="margin-top: 0.5rem; color: #475569;">Completed hands-on training in supervised ML: linear & logistic regression, gradient descent, and model evaluation.</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-brain"></i>
+                    <h3 style="font-size: 1.4rem; margin-bottom: 0.3rem;">AI For Everyone</h3>
+                    <p style="font-weight: 600; color: #2563eb;">Coursera – DeepLearning.AI</p>
+                    <p style="margin-top: 0.5rem; color: #475569;">Non-technical AI fundamentals covering AI strategy, ethics, data importance, and business applications.</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3 style="font-size: 1.4rem; margin-bottom: 0.3rem;">Graphic Design Learning</h3>
+                    <p style="font-weight: 600; color: #2563eb;">Tech Involvers</p>
+                    <p style="margin-top: 0.5rem; color: #475569;">Exploring mobile graphic design alongside engineering, enhancing creative thinking and visual communication.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <span class="section-tag"><i class="fas fa-paper-plane"></i> connect</span>
+            <div class="contact-card">
+                <div>
+                    <h3 style="font-size: 2rem; font-weight: 700; margin-bottom: 1rem;">Let's work together</h3>
+                    <div class="contact-details">
+                        <span><i class="fas fa-phone-alt" style="color: #2563eb; width: 24px;"></i> +92 322 4191171</span>
+                        <a href="mailto:arshadhaseeb901@gmail.com"><i class="fas fa-envelope" style="color: #2563eb; width: 24px;"></i> arshadhaseeb901@gmail.com</a>
+                        <a href="https://www.linkedin.com/in/muhammad-haseeb-arshad-2b3314295/"><i class="fab fa-linkedin" style="color: #2563eb; width: 24px;"></i> linkedin.com/in/muhammad-haseeb</a>
+                        <a href="https://github.com/Haseeb-524"><i class="fab fa-github" style="color: #2563eb; width: 24px;"></i> github.com/haseeb</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <a href="mailto:arshadhaseeb901@gmail.com" class="btn btn-primary" style="font-size: 1.1rem; padding: 1rem 2.4rem;"><i class="fas fa-envelope" style="margin-right: 10px;"></i> send email</a>
+                    <p style="margin-top: 1.2rem; color: #4b6584;"><i class="fas fa-map-marker-alt" style="color: #2563eb;"></i> Lahore, Pakistan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Muhammad Haseeb · engineered with <i class="fas fa-heart" style="color: #2563eb;"></i> and professional animations</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
